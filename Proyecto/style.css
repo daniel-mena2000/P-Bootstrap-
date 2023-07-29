@@ -1,0 +1,46 @@
+:root{
+    --first-color: rgb(217,0,98);
+    --first-alpha-color: rgb(161, 1, 73);
+    --second-color: rgb(20,25,45);
+    --second-alpha-color: rgb(28, 27, 27);
+    --third-color: rgb(80,20,100);
+    --third-alpha-color: rgb(132, 12, 172);
+
+    --link-color: rgb(80,158,227);
+
+    --bg-color: rgb(145,158,245);
+    --bg-alpha-color: rgba(245,245,245, 0.75);
+
+}
+
+/*Reset styles*/
+
+/*Bootstrap Styles*/
+.bg-dark{
+/*En bootstrap este el bg-dark tiene un important por lo tanto hay que ponerselo a nuestro cambio*/
+    background-color: var(--second-color) !important;
+}
+
+/*Mis estilos*/
+
+
+
+@media (min-width: 576px) {
+
+ }
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+ }
+
+@media (min-width: 1400px) {
+
+ } 
