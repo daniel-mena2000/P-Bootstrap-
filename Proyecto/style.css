@@ -7,6 +7,8 @@
     --third-alpha-color: rgb(132, 12, 172);
 
     --link-color: rgb(80,158,227);
+    --link-color-2: rgb(32, 132, 221);
+
 
     --bg-color: rgb(145,158,245);
     --bg-alpha-color: rgba(245,245,245, 0.75);
@@ -14,15 +16,52 @@
 }
 
 /*Reset styles*/
-
+a{
+    color: var(--link-color);
+}
+a:hover{
+    color: white;
+}
 /*Bootstrap Styles*/
 .bg-dark{
 /*En bootstrap este el bg-dark tiene un important por lo tanto hay que ponerselo a nuestro cambio*/
     background-color: var(--second-color) !important;
 }
 
-/*Mis estilos*/
+.nav-item{
+    margin-left: .5rem;
+    transition: all .3s ease-out;
+}
 
+.nav-item:hover{
+background-color: var(--link-color);
+}
+
+.nav-link{
+    color: var(--link-color);
+    font-weight: bold;
+    margin-left: 5px;
+}
+.nav-link:hover{
+    color: white;
+}
+.dropdown-item{
+    font-weight: bold;
+    color: var(--link-color);
+    transition: all 300ms ease;
+}
+.dropdown-item:hover{
+    background-color: var(--link-color);
+    color: white;
+}
+.nav-item{
+    border-radius: 5px;
+}
+
+/*Mis estilos*/
+.bg-color-ser{
+    background: rgb(254, 250, 250);
+}
 
 
 @media (min-width: 576px) {
@@ -34,6 +73,9 @@
 }
 
 @media (min-width: 992px) { 
+    .nav-item:hover{
+        background-color: transparent;
+        }
 
 }
 

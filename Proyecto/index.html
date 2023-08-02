@@ -14,7 +14,7 @@
 <!-- La barra se convertira en desplegable en el tamaño "lg" osea a los 992px -->
 <!-- navbar-brand: Agregue su texto dentro de un elemento con la .navbar-brandclase.-->
 <!-- Para que se visualice el texto hay que poner "navbar-dark" -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
 
     <div class="container">
 
@@ -23,7 +23,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown ">
 <!-- Hay que empujar la barra a la derecha m=margin, s=start, que solo se plique en lg=992px-->
         <ul class="navbar-nav ms-lg-auto">
           <li class="nav-item">
@@ -52,12 +52,116 @@
             <a class="nav-link" href="contacto.html">¿Interesado?</a>
           </li>
 
-       350
         </ul>
       </div>
     </div>
   </nav>
+<!-- pt-5: padding-top -->
+<!--bg-gradient-color: Esta clase es mia para poner el color de fondo en la hoja css -->
+  <main class="pt-5 bg-gradient-color">
+      <div class="container">
+<!-- Como estamos trabajando en filas usamos "aling" para centrar los elementos -->
+        <section class="row align-items-lg-center mb-5">
+<!-- Las imagenes ocuparan 7 y los textos 5 = 12 -->
+          <article class="col-12 col-lg-5">
+            <h2>¿Necesitas un increible sitio web?</h2>
+            <p class=" text-secondary fs-5">Un sitio hermoso, moderno, responsivo y personalizado para tu compañia, negocio, marca o producto.</p>
 
+            <a class="btn btn-outline-primary btn-lg fw-bold " href="#servicios">!Si, empecemos¡ </a>
+
+          </article>
+          <article class="col-12 col-lg-7">
+<!-- img-fluid: para hacer nuestras imagenes responsivas -->
+            <img class="img-fluid" src="img/img/header-image.png" alt="">
+          </article>
+<!-- Pasamos el texto a la posicion 1, recordar que empieza de 0, y asi invertimos el texto y la imagen en el tamaño large  -->
+          <article class="col-12 col-lg-5 order-lg-1">
+            <h2>Sitios web Responsivos</h2>
+            <p class="text-secondary fs-5">Es importante proporcionar a tus visitantes una experiencia web óptima en dispositivos móviles.
+              El diseño web responsivo significa que tu sitio se adapta instantáneamente al dispositivo que el visitante utiliza.
+              !Mi trabajo es hacer, que la visita de tus usuarios sea lo mas agradable e intuitiva para ellos¡
+            </p>
+          </article>
+  
+          <article class="col-12 col-lg-7 ">
+            <img class="img-fluid"  src="img/img/header-image-2.png" alt="">
+          </article>
+        </section>
+<!-- --------------------------SERVICIOS---------------------------------------------------------------------------- -->
+
+<!-- Camviaran a 2 columnas en el tamaño md(medium) ya que 6 es la mitad de los 12 espacios de la gris que nos ofrece bootstrap -->
+        <section id="servicios" class="row align-items-lg-center min-vh-100 bg-color-ser">
+<!-- d-flex para que el contenido se adapte de una fejor forma y no esten pegados uno del otro -->
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+<!--  .mx-autoclase para centrar horizontalmente contenido de nivel de bloque de ancho fijo, es decir, contenido que tiene display: blocky un widthconjunto, configurando los márgenes horizontales en auto. -->
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/webresponsive.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nuevo sitio web</h5>
+                <p class="card-text text-secondary">¿Necesitas un (nuevo) sitio web 100% responsivo?</p>
+                <a href="#" class="btn btn-outline-primary">Más detalles <i class="bi bi-chevron-compact-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/client.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Clientes</h5>
+                <p class="card-text text-secondary">Clientes felices y proyectos hermosos.</p>
+                <a href="#" class="btn btn-outline-primary">Más detalles <i class="bi bi-chevron-compact-right"></i></a>
+              </div>
+            </div>
+
+          </article>
+
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/flujo.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flujo de Trabajo</h5>
+                <p class="card-text text-secondary">Escucho tus necesidades Discutamos tu proyecto.</p>
+                <a href="#" class="btn btn-outline-primary">Más detalles <i class="bi bi-chevron-compact-right"></i></a>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-12 col-md-6 col-xl-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="img/interes.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">¿Interesado?</h5>
+                <p class="card-text text-secondary">Comencemos con tu nuevo proyecto.</p>
+                <a href="#" class="btn btn-outline-primary">Más detalles <i class="bi bi-chevron-compact-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+        </section>
+      </div>
+  </main>
+
+
+  <!-- bi bi-redSocial para agregar el icono de la red social -->
+  <!-- "fs-3" es para el font size y hacer mas grande el icono -->
+  <footer class="bg-dark p-2 ">
+    <div class="container text-center">
+<!-- Aplicamos flex-box al nav -->
+<!-- Fixed-bottom para fijart la barra alabajo: documentacion=navbar -->
+      <nav class="d-flex justify-content-evenly ">
+        <a href="https://facebook.com" target="_black"><i class="bi bi-twitter fs-4"></i></a>
+        <a href="https://twitter.com" target="_black"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="https://github.com" target="_black"><i class="bi bi-github fs-4"></i></a>
+        <a href="https://youtube.com" target="_black"><i class="bi bi-youtube fs-4"></i></a>
+        <a href="https://instagram.com" target="_black"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="https://.com" target="_black"><i class="bi bi-messenger fs-4"></i></a>
+        <a href="https://bi-whatsapp.com" target="_black"><i class="bi bi-whatsapp fs-4"></i></a>
+      </nav>
+      <small class="text-white">&copy;2023 @Daniel Mena, practicas con bootstrap,</small>
+    </div>
+     
+  </footer>
 
 
 
