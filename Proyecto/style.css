@@ -57,10 +57,40 @@ background-color: var(--link-color);
 .nav-item{
     border-radius: 5px;
 }
+/* --------------------------------sitios----------------------- */
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: rgb(4, 20, 111);
+    border-radius: 10px;
+}
 
 /*Mis estilos*/
 .bg-color-ser{
     background: rgb(254, 250, 250);
+}
+/* sitios */
+.info-btn:hover{
+    color: rgb(4, 20, 111);
+}
+/* Clientes */
+
+.bg-second-alpha-color{
+    background-color: rgba(3, 15, 87, 0.5)
+}
+
+/*.................................................Sitios.............................................*/
+.bg-color-sitios{
+    background-color: var(--bg-alpha-color);
+}
+.bg-hero-image{
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*Color de fondo para el contenido*/
+.bg-alpha-color{
+background: var(--bg-alpha-color);
 }
 
 

@@ -18,7 +18,7 @@
 
     <div class="container">
 
-      <a class="navbar-brand" href="index.html"><img src="img/favicon.png" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img src="img/favicon.png" alt=""> <p class="text-white d-inline ">MeXa<span class="text-primary">Code</span></p></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,8 +37,8 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="sitios.html#ultimos-proyectos">Últimos Proyectos</a></li>
-              <li><a class="dropdown-item" href="sitios.html#single-page">Single Page</a></li>
-              <li><a class="dropdown-item" href="sitios.html#multi-page">Multi Page</a></li>
+              <li><a class="dropdown-item" href="sitios.html#single-page"><i class="bi bi-currency-dollar text-success"></i> Single Page</a></li>
+              <li><a class="dropdown-item" href="sitios.html#multi-page"><i class="bi bi-currency-dollar text-success"></i> Multi Page</a></li>
             </ul>
           </li>
 
@@ -57,15 +57,119 @@
     </div>
   </nav>
 
-  <main >
-    <h1>Sitios</h1>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <main class="bg-color-sitios">
+    
+    <section id="ultimos-proyectos" class="pb-5">
+
+      <div class="text-center pt-5">
+        <p class="display-5">Sitios Web 100% responsivos</p>
+        <p class="fs-5">Desarrollo sitios de una sóla forma y de multiples páginas</p>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="img/img/work-slide-1.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/img/work-slide-2.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/img/work-slide-3.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/img/work-slide-4.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/img/work-slide-5.png" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+<!-- bg-alpha-color: esta clase la creamos para poner un color sobre la imagen de fondo y que el contenido se note -->
+<!-- Colocamos el style ya que como 2 secciones ocuparan la clase ".bg-hero-image" con esto podemos reutilizarla y no escribirlo para 2 etiquetas -->
+    <section id="single-page" class="min-vh-100 bg-hero-image" style="--bg-image: url(img/img/site-singlepage.jpg);">
+      <article class="bg-alpha-color min-vh-100 d-flex align-items-center">
+        <div class="container">
+<!-- Recordar que col-12 es todo el ancho en la version movil -->
+          <article class="col-12 col-lg-6 offset-lg-6">
+            <a class="btn btn-lg btn-success text-white mb-5" href="contacto.html"><b>Desde $400 </b><small>USD</small></a>
+            <h2>Sitio de una sola pagina</h2>
+            <small>El precio puede ser más alto depensiendo de los requisitos de su proyecto</small>
+            <p class="my-5">Una <b>sola página</b> o <b>página de destino</b> es un sitio web que consta de una página.
+              Perfecto para representar a tu empresa, organización, producto o servicio de una manera hermosa y moderna en Internet.
+            </p>
+            <a class="info-btn fs-4" href="contacto.html">Solicite una cotización ahora <i class="bi bi-chevron-compact-right"></i></a>
+            <div class="row mt-5">
+<!-- Recordar que cuando no le especificamos tamaño a las columnas estas se reparten el espacio proporcionalmente -->
+              <div class="col">
+                <p><i class="bi bi-check-lg">Sitio web de una sola página</i></p>
+                <p><i class="bi bi-check-lg">100% Responsivo</i></p>
+                <p><i class="bi bi-check-lg">Diseño personalizado</i></p>
+              </div>
+              <div class="col">
+                <p><i class="bi bi-check-lg">Corrección de estilo</i></p>
+                <p><i class="bi bi-check-lg">Edicion de imágenes</i></p>
+                <p><i class="bi bi-check-lg">Soporte</i></p>
+              </div>
+            </div>
+          
+          </article>
+
+        </div>
+      </article>
+    </section>
+
+    <section id="multi-page" class="min-vh-100 bg-hero-image" style="--bg-image: url(img/img/site-multipage.jpg);">
+      <article class="bg-alpha-color min-vh-100 d-flex align-items-center">
+        <div class="container">
+        <article class="col-12 col-lg-6">
+          <a class="btn btn-success btn-lg" href="contacto.html"><b>Desde $1000 </b><small>USD</small></a>
+          <h2 class="mt-5">Sitio multipágina</h2>
+          <small>Es precio puede ser más bajo o mas alto dependiendo de los requisitos de su proyecto</small>
+          <p class="mt-5">Un <b>sitio web de varias páginas</b> consta de dos o mas páginas. Este formato es util si tiene ciertos
+          elementos que desea mantener separados por páginas y urls diferentes
+        </p>
+        <a class="info-btn fs-4" href="contacto.html">Solicite una cotización ahora</a>
+
+        <div class="row mt-5">
+          <div class="col">
+            <p><i class="bi bi-check-lg">2 a 6 páginas</i></p>
+            <p><i class="bi bi-check-lg">100% responsivo</i></p>
+            <p><i class="bi bi-check-lg">Diseño responsivo</i></p>
+          </div>
+          <div class="col">
+            <p><i class="bi bi-check-lg">Correccion de estilo</i></p>
+            <p><i class="bi bi-check-lg">Edición de Imágenes</i></p>
+            <p><i class="bi bi-check-lg">Soporte</i></p>
+          </div>
+        </article>
+        </div>
+        </div>
+      </article>
+    </section>
   </main>
 
 
   <!-- bi bi-redSocial para agregar el icono de la red social -->
   <!-- "fs-3" es para el font size y hacer mas grande el icono -->
-  <footer class="bg-dark p-2 fixed-bottom">
+  <footer class="bg-dark p-2 ">
     <div class="container text-center">
 <!-- Aplicamos flex-box al nav -->
 <!-- Fixed-bottom para fijart la barra alabajo: documentacion=navbar -->
