@@ -14,7 +14,9 @@
     --bg-alpha-color: rgba(245,245,245, 0.75);
 
 }
-
+*{
+    box-sizing: border-box;
+}
 /*Reset styles*/
 a{
     color: var(--link-color);
@@ -57,6 +59,10 @@ background-color: var(--link-color);
 .nav-item{
     border-radius: 5px;
 }
+.carousel-caption{
+    z-index: 1;
+}
+
 /* --------------------------------sitios----------------------- */
 .carousel-control-next-icon,
 .carousel-control-prev-icon{

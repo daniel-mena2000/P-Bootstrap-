@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MeXacode</title>
+    <title>Interesado? | MeXacode</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
     <link rel="stylesheet" href="style.css">
@@ -57,15 +57,72 @@
     </div>
   </nav>
 
-  <main >
-    <h1>Contacto</h1>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <main class="pt-5 bg-color">
+    <div class="container mb-5">
+      <section class="row align-items-lg-center">
+        <article class="col-12 text-center">
+          <p class="display-5 text-primary">¿Interesado?</p>
+          <p class="fs-5">¡Enviame tus comentarios!</p>
+          <p>Para más información puedes contactarme en <a href="">mexad@code.com</a></p>
+        </article>
+       
+        <article class="col-12 col-lg-6 order-lg-1">
+          formulario
+        </article>
+        <article class="col-12 col-lg-6" >
+<!--documentacion aspectRario: https://getbootstrap.com/docs/5.3/helpers/ratio/#aspect-ratios -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15055.155505535595!2d-99.1787472!3d19.3782922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff83579e4d6d%3A0xd30ad3537f5ef604!2sParque%20Hundido!5e0!3m2!1ses-419!2smx!4v1691461428436!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+     
+      <div class="carousel-inner">
+<!-- Sacamos este elemento de cada imagen, le ponemos un color de fondo, y a la clase "carousel-caption" le ponemos un "Z-INDEX" y asi este elemento se mantiene en todo el carrusel-->
+        <div class="carousel-caption bg-second-alpha-color">
+        <article>
+          <p class="fs-3"><b>Eduardo Mena</b></p>
+          <p class="fs-5 d-none d-sm-block">Desarrollador Web.</p>
+<!-- En versiones medias estos textos se quitaran -->
+          <aside class="d-none d-md-block">
+            <p>Comencé a crear sitios y aplicaciones web en <b>2022.</b></p>
+          <p>Valoro mucho el concepto de <b>menos es más.</b></p>
+          </aside>
+        </article>
+        </div>
+        <div class="carousel-item active">
+          <img src="img/img/about-1.jpg" class="d-block w-100" alt="...">
+        
+        </div>
+        <div class="carousel-item">
+          <img src="img/img/about-2.jpg" class="d-block w-100" alt="...">
+          
+        </div>
+        <div class="carousel-item">
+          <img src="img/img/about-3.jpg" class="d-block w-100" alt="...">
+         
+        </div>
+
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </main>
 
 
   <!-- bi bi-redSocial para agregar el icono de la red social -->
   <!-- "fs-3" es para el font size y hacer mas grande el icono -->
-  <footer class="bg-dark p-2 fixed-bottom">
+  <footer class="bg-dark p-2">
     <div class="container text-center">
 <!-- Aplicamos flex-box al nav -->
 <!-- Fixed-bottom para fijart la barra alabajo: documentacion=navbar -->
