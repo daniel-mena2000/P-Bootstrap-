@@ -11,4 +11,5 @@
 </div>
 
 ###
+Capturas de pantalla:
 ![practica1](https://github.com/daniel-mena2000/P-Bootstrap-/assets/89050072/65a4e943-ea91-41c9-ba63-0b68d56a135a)
