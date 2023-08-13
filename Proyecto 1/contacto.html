@@ -19,11 +19,12 @@
     <div class="container">
 
       <a class="navbar-brand" href="index.html"><img src="img/favicon.png" alt=""> <p class="text-white d-inline ">MeXa<span class="text-primary">Code</span></p></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+  
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown ">
+      <div class="collapse navbar-collapse" id="navbarNav">
 <!-- Hay que empujar la barra a la derecha m=margin, s=start, que solo se plique en lg=992px-->
         <ul class="navbar-nav ms-lg-auto">
           <li class="nav-item">
@@ -67,8 +68,38 @@
         </article>
        
         <article class="col-12 col-lg-6 order-lg-1">
-          formulario
+<!-- Para ordenar y estilar el formulario son importantes las clases "form-label" y "form-control" -->
+          <form action="https://formsubmit.co/eduardo.mena@ukuepa.com" method="POST">
+            <div class="mb-4">
+              <label class="form-label" for="name">Nombre:</label>
+              <input class="form-control" id="name" class="" name="name" type="text" required>
+            </div>
+            
+            <div class="mb-4">
+              <label class="form-label"  for="email">Email:</label>
+              <input class="form-control" id="email" class="" name="email" type="text" required>
+            </div>
+            
+            <div class="mb-4">
+              <label class="form-label" for="comments">Dejanos tus comentarios:</label>
+              <textarea class="form-control" name="comments" id="comments" cols="30" rows="2"></textarea>
+             </div>
+           
+            <div class="mb-4">
+              <input class="btn btn-lg btn-primary mt-1" type="submit" value="Enviar">
+              <!-- _NEXT: Redireccionara a una pagina de gracias que nosotros tenemos que hacer y hay que poner la ruta -->
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/Proyecto/thanks.html">
+              <!-- _SUBJECT: Para que cuando llegue el correo lo podamos identificar con un titulo-->
+            <input type="hidden" name="_subject" value="MeXaCode Bootstrap">
+            </div>
+            
+            
+
+
+
+        </form>
         </article>
+
         <article class="col-12 col-lg-6" >
 <!--documentacion aspectRario: https://getbootstrap.com/docs/5.3/helpers/ratio/#aspect-ratios -->
           <div class="ratio ratio-16x9">
