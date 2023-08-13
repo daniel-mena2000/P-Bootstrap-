@@ -9,8 +9,8 @@
 
 
 </div>
+  <h2>Capturas de pantalla:</h2>
 
 ###
-  <h2>Capturas de pantalla:</h2>
-###
+
 ![practica1](https://github.com/daniel-mena2000/P-Bootstrap-/assets/89050072/65a4e943-ea91-41c9-ba63-0b68d56a135a)
