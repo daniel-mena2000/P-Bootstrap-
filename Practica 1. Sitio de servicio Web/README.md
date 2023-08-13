@@ -1,3 +1,4 @@
+  <h2>Tecnologías:</h2>
 
 <div align="left">
   <img width="12" />
