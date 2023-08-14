@@ -1,14 +1,35 @@
 :root{
     --bg-color: rgb(47, 50, 50);
+    --color-secundary: rgb(0,255,255);
 }
 
 .navbar{
-    padding: 2rem;
+    padding: 1rem;
     
 }
-
 /* En esta clase estan contenido los elementos */
 .navbar-collapse{
     align-items: center;
     justify-content: space-between;
+}
+.navbar-brand img{
+    background: var(--color-secundary);
+    border-radius: 5px;
+}
+.navbar-toggler-icon{
+    width: 40px;
+    height: 40px;
+   background-color: var(--color-secundary);
+    border-radius: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+/* ocultamos el logo */
+    .navbar-brand{
+        display: none;
+    }
 }
