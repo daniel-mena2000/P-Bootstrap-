@@ -28,12 +28,13 @@
 ###
 
 *Clientes*
-
+##
 ![clientes](https://github.com/daniel-mena2000/P-Bootstrap-/assets/89050072/f17a735a-bce5-409a-bec3-acdc3d6370b5)
 
 ###
 
 *Comencemos*
+##
 ![Comencemos](https://github.com/daniel-mena2000/P-Bootstrap-/assets/89050072/b63332f6-5593-4192-a23f-6176dec9b022)
 
 ###
