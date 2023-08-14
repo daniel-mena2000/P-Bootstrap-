@@ -17,6 +17,9 @@
 ###
 
 ![practica1](https://github.com/daniel-mena2000/P-Bootstrap-/assets/89050072/65a4e943-ea91-41c9-ba63-0b68d56a135a)
+##
+![inicio 2 (2)](https://github.com/daniel-mena2000/P-Bootstrap-/assets/89050072/74f0115f-f58d-45e1-979c-00a128367008)
+
 
 ###
 *Sitios*
