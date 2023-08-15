@@ -11,7 +11,7 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-md bg-dark ">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid text-light">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,21 +20,88 @@
             <a class="navbar-brand" href="#"><img src="img/favicon.png" alt=""></a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item text-light">
-                <a class="nav-link active text-light" aria-current="page" href="#">Sobre mí</a>
+                <a class="nav-link active" aria-current="page" href="#sobremi">Sobre mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Proyectos</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Testimonios</a>
+                <a class="nav-link " href="#">Testimonios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contacto</a>
+                <a class="nav-link" href="#">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
+  <section class="hero container-fluid align-items-stretch bg-light">
+    <div class="text-center">
+<!-- "rounded-circle" para un border-radius del 50% -->
+      <img class="rounded-circle img-fluid img-perfil" src="img/perfil.jpeg" alt="mifoto">
+      <h1 class="display-4">Hola, soy Eduardo Mena</h1>
+      <h2 class="display-5 pb-5 fs-2">Desarrollo sitios web y escribo articulos sobre programación</h2>
+      <img class="img-fluid img-hero-inf" src="img/hero-inferior.svg" alt="monitor y logos de tecnologias">
+    </div>
+  </section>
+
+  <section class="sobre-mi bg-dark">
+    <div class="contenedor d-flex flex-column justify-content-center align-items-center p-5 text-center">
+      <h2 class="fs-1 fw-lighter mt-5 text-light text-light">Un poco sobre mí</h2>
+      <p class="fs-5 fw-lighter m-5 text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quo, et consectetur fuga non quibusdam quam voluptate. Illo, magnam id? Ut sequi ea aliquid voluptatem adipisci incidunt distinctio quos est.
+      Iste delectus similique aut, blanditiis odit officia dolorum ab suscipit ad, eum tenetur placeat. Maiores temporibus voluptates repellendus, expedita, facilis a enim aut iste deserunt itaque aliquid in, minus obcaecati.</p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="container mt-4 mb-4 ">
+
+     <div class="row text-center">
+      <div class="columna col-12 col-lg-4 border  d-flex justify-content-around flex-column">
+        <img class="mx-auto" src="img/pc.png" alt="">
+        <h3>Desarrollo Web</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime deserunt impedit itaque? Eos delectus sunt adipisci, officia consequuntur sequi animi maxime repellendus qui facere nesciunt, accusantium corrupti tenetur! Corrupti!
+        Delectus voluptates tempora ea totam id, fugit repudiandae perferendis consectetur, distinctio quisquam unde tenetur provident porro odio natus dolor? Non eligendi quos nostrum aut archite.</p>
+        <div class="fw-bold fs-5 mb-3">
+          <span class="badge text-bg-secondary">HTML</span>
+          <span class="badge text-bg-secondary">CSS</span>
+          <span class="badge text-bg-secondary">JS</span>
+          <span class="badge text-bg-secondary">REACT</span>
+        </div>
+      </div>
+
+      <div class="columna col-12 col-lg-4 border d-flex justify-content-around flex-column">
+        <img class="mx-auto" src="img/articulos.png" alt="">
+        <h3>Articulos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum autem, assumenda sed totam labore fuga error dicta vero et natus nostrum quisquam architecto dolorem cupiditate nemo iste, voluptatem doloribus.
+        Vel explicabo laboriosam at vero numquam natus maiores in ullam, sapiente facilis molestiae modi sunt ipsa tempora ab ex deleniti quam nulla rerum unde nostrum eaque dignissimos cupiditate! Similique, ab.</p>
+        <div class="fw-bold fs-5 mb-3">
+          <span class="badge text-bg-secondary">Escribir</span>
+          <span class="badge text-bg-secondary">Editar</span>
+          <span class="badge text-bg-secondary">Blogs</span>
+        </div>
+      </div>
+
+      <div class="columna col-12 col-lg-4 border  d-flex justify-content-around flex-column">
+        <img class="mx-auto" src="img/pencil.png" alt="">
+        <h3>Estudiante</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita sunt, amet molestiae tenetur odio ab sequi eos debitis impedit! Quas dolorem sit cupiditate debitis, deleniti corrupti ut sapiente voluptatum molestiae.
+        A vitae consequuntur, veritatis molestiae totam suscipit tempora sed. Blanditiis perspiciatis ullam optio aut similique culpa deserunt harum porro assumenda. Consectetur</p>
+        <div class="fw-bold fs-5 mb-3">
+          <span class="badge text-bg-secondary">Univesidad</span>
+          <span class="badge text-bg-secondary">Cursos en linea</span>
+          <span class="badge text-bg-secondary">Documentación</span>
+        </div>
+      </div>
+     </div>
+  </section>
+  <!-- Proyectos -->
+
+  <section>
+    <h2>Mis proyectos recientes</h2>
+    <h3>Estos son algunos proyectos que he creado recientemente...</h3>
+  </section>
       
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 

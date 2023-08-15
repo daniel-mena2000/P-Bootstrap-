@@ -1,6 +1,7 @@
 :root{
     --bg-color: rgb(47, 50, 50);
-    --color-secundary: rgb(0,255,255);
+    --color-secundary: rgb(9, 203, 203);
+    --dark: #212529;
 }
 
 .navbar{
@@ -12,17 +13,42 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar-brand img{
-    background: var(--color-secundary);
-    border-radius: 5px;
-}
+
 .navbar-toggler-icon{
     width: 40px;
     height: 40px;
-   background-color: var(--color-secundary);
     border-radius: 5px;
 }
 
+/* seccion principal */
+.hero{
+    min-height: 450px;
+}
+.hero .img-perfil{
+    width: 10%;
+    object-fit: contain;
+}
+.hero .img-hero-inf{
+    width: 700px;
+}
+
+/* Sobre mi */
+.sobre-mi{
+    height: auto;
+}
+.img-icon{
+    width: 100px; 
+}
+.exp .columna:hover{
+    background: var(--bg-color);
+}
+.columna{
+    transition: all 200ms ease-in;
+}
+.columna:hover{
+    background: var(--dark);
+    color: white;
+}
 
 
 
@@ -31,5 +57,8 @@
 /* ocultamos el logo */
     .navbar-brand{
         display: none;
+    }
+    .hero .img-perfil{
+        width: 50%;
     }
 }
